@@ -1,0 +1,9 @@
+/**
+ * 
+ *
+ * @author 
+ */
+
+trait BinaryTree {
+    
+}
