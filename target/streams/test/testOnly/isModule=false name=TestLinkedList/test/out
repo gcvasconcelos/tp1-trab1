@@ -1,0 +1,7 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mTestLinkedList:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA LinkedList[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should have size == 0 before any insertion[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should have size increased by 1 after any insertion[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should keep track of the inserted values by their postion number[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should insert values in between previous inserted values[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw InvalidArgument if an position lower than 0 and higher than the size is inserted[0m[0m
