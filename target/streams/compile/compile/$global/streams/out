@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/TP1/tp1-2018/trab1/src/main/scala/LinkedListImplementation.scala:31:19: not found: value InvalidArgument[0m
-[0m[[0m[31merror[0m] [0m[0m            throw InvalidArgument()[0m
-[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/TP1/tp1-2018/trab1/src/main/scala/LinkedListImplementation.scala:50:9: not found: value nodeTemp[0m
+[0m[[0m[31merror[0m] [0m[0m        nodeTemp.value[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
