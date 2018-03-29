@@ -83,8 +83,6 @@ class TestLinkedList extends FlatSpec with Matchers with GivenWhenThen with Befo
 		list.remove(0)
 		list.remove(0)
 
-		list.print
-
 		list.find(0).value should be (333)
 		list.find(1).value should be (444)
 	}

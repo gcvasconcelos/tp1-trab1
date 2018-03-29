@@ -5,8 +5,9 @@
  */
 
 trait Stack {
-    def size(): Int    
-    def push(value: Int): Unit // returns void
-    def pop(): Int
+    def size(): Int
+    def print(): Unit
+    def push(value: Int): Unit 
+    def pop(): Unit
     def top(): Int
 }
