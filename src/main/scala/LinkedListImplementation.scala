@@ -1,8 +1,8 @@
-case class Node(var value: Int, var next: Node)
+class Node(val value: Int, var next: Node)
 
 class LinkedListImplementation extends LinkedList {
     private var _size: Int = 0
-    private var _head: Node = null
+    private var _head: Node = _
 
     def size(): Int = _size
     def head(): Int = _head.value
@@ -20,7 +20,7 @@ class LinkedListImplementation extends LinkedList {
     }
 
     def insert(value: Int, pos: Int): Unit = {
-        var node = Node(value, null)
+        var node = new Node(value, null)
         if (pos >= 0 && pos <= _size){
             if (_size == 0) { 
                 _head = node 

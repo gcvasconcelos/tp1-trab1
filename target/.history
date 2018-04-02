@@ -18,3 +18,12 @@ testOnly TestLinkedList
 test
 testOnly TestStack
 test
+compile
+test
+test]
+test
+compile
+run
+test
+ls
+test
