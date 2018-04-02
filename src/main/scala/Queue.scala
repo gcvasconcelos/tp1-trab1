@@ -1,7 +1,5 @@
 /**
- * 
- *
- * @author gcvasconcelos
+ * @author carlossilvaa
  */
 
 trait Queue {
