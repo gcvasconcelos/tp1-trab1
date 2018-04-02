@@ -52,12 +52,49 @@ class TestBinaryTree extends FlatSpec with Matchers with GivenWhenThen with Befo
 		tree.height() should be (2)
 	}
 
-	it should "return correct node when the method find is called" in {
+	// it should "return true when a node is found" in {
+	// 	tree.insert(2)
+	// 	tree.insert(1)
+	// 	tree.insert(3)
+
+	// 	tree.find(3) should be (true) 
+	// }
+
+	// it should "return false when the node is not found in the tree" in {
+	// 	tree.insert(2)
+	// 	tree.insert(1)
+	// 	tree.insert(3)
+
+	// 	tree.find(4) should be (false) 
+	// }
+
+	it should "delete node with no children correctly" in {
 		tree.insert(2)
 		tree.insert(1)
 		tree.insert(3)
+		tree.remove(1)
 
-		var node: TreeNode = tree.find(2)
-		node.value should be (2) 
+		tree.find(1) should be (false)
+	}
+
+	it should "delete node with one children and link its children with its parent" in {
+		tree.insert(2)
+		tree.insert(1)
+		tree.insert(5)
+		tree.insert(3)
+		tree.remove(5)
+
+		tree.root.right should be (3)
+	}
+
+	it should "delete node with two children and link its children with its parent" in {
+		tree.insert(2)
+		tree.insert(1)
+		tree.insert(5)
+		tree.insert(3)
+		tree.insert(6)
+		tree.remove(5)
+
+		tree.root.right should be (3)
 	}
 }

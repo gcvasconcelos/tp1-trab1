@@ -1,5 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/TP1/tp1-2018/trab1/src/main/scala/BinaryTreeImplementation.scala:60:9: overriding method find in trait BinaryTree of type (value: Int)Boolean;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/TP1/tp1-2018/trab1/src/main/scala/BinaryTreeImplementation.scala:60:9: overriding method find in trait BinaryTree of type (value: Int)TreeNode;[0m
 [0m[[0m[31merror[0m] [0m[0m method find has incompatible type[0m
-[0m[[0m[31merror[0m] [0m[0m    def find(value: Int): TreeNode = {[0m
+[0m[[0m[31merror[0m] [0m[0m    def find(value: Int): Boolean = {[0m
 [0m[[0m[31merror[0m] [0m[0m        ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

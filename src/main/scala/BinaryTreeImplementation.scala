@@ -57,21 +57,25 @@ class BinaryTreeImplementation extends BinaryTree {
         }
     }
 
-    def find(value: Int): TreeNode = {
+    def find(value: Int): Boolean = {
         var currentNode: TreeNode = root
+        var nodeFound: Boolean = false
 
-        while(isEmpty(currentNode)) {
-            if (currentNode.value == value){
-                currentNode
+        while (currentNode != null && nodeFound == false) {
+            if (currentNode.value < value) {
+                currentNode = currentNode.left
             } else if (currentNode.value > value) {
                 currentNode = currentNode.right
             } else {
-                currentNode.left
+                nodeFound = true
             }
         }
-        null
+        nodeFound
     }
 
-    def remove(value: Int): Unit = {}
+    def remove(value: Int): Unit = {
+        
+    }
+
     def print(): Unit = {}
 }
