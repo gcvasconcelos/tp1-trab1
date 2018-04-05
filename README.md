@@ -13,7 +13,7 @@ O código foi desenvolvido seguindo as boas práticas sugeridas neste [guia](htt
 [x] Lista encadeada
 [x] Pilha
 [x] Fila
-[] Deque
+[x] Deque
 [] Heap
 [] Grafo
 [] Árvore Binária
