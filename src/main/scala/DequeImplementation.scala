@@ -27,7 +27,7 @@ class DequeImplementation[A] extends Deque[A] {
         }
     }
 
-    def last(): A = _elements.find(size-1)
+    def last(): A = _elements.find(size-1).value
 
-    def first(): A = _elements.find(0)
+    def first(): A = _elements.find(0).value
 }

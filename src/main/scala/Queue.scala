@@ -2,8 +2,8 @@
  * @author carlossilvaa
  */
 
-trait Queue {
+trait Queue[A] {
     def size(): Int    
-    def enqueue(value: Int): Unit // returns void
-    def dequeue(): Int
+    def enqueue(value: A): Unit // returns void
+    def dequeue(): Unit
 }

@@ -7,10 +7,10 @@ class TestDeque extends FlatSpec with Matchers with GivenWhenThen with BeforeAnd
 
   behavior of "A Deque"
 
-  var deque: DequeImplementation = _
+  var deque: DequeImplementation[Int] = _
 	
 	before {
-		deque = new DequeImplementation
+		deque = new DequeImplementation[Int]
 	}
 
     it should "have size == 0 before any insertion" in {

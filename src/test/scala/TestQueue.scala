@@ -7,10 +7,10 @@ class TestQueue extends FlatSpec with Matchers with GivenWhenThen with BeforeAnd
 
   behavior of "A Queue"
 
-  var queue: QueueImplementation = _
+  var queue: QueueImplementation[Int] = _
 	
 	before {
-		queue = new QueueImplementation
+		queue = new QueueImplementation[Int]
 	}
 
     it should "have size == 0 before any insertion" in {

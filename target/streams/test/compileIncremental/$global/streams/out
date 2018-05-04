@@ -1,1 +1,63 @@
-[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar: stamp changed from lastModified(1509141854000) to lastModified(1521029755000)[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe Node has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(next,[Default]), UsedName(Node,[Default]), UsedName(value,[Default]), UsedName(Node;init;,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) Node: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) Node.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of TestLinkedList: Set(UsedName(Node,[Default]), UsedName(value,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe LinkedListImplementation has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(LinkedListImplementation,[Default]), UsedName(head,[Default]), UsedName(insert,[Default]), UsedName(LinkedListImplementation;init;,[Default]), UsedName(find,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) LinkedListImplementation: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) LinkedListImplementation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of TestLinkedList: Set(UsedName(LinkedListImplementation,[Default]), UsedName(head,[Default]), UsedName(insert,[Default]), UsedName(LinkedListImplementation;init;,[Default]), UsedName(find,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe StackImplementation has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(StackImplementation;init;,[Default]), UsedName(push,[Default]), UsedName(top,[Default]), UsedName(StackImplementation,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) StackImplementation: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) StackImplementation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of TestStack: Set(UsedName(push,[Default]), UsedName(StackImplementation,[Default]), UsedName(top,[Default]), UsedName(StackImplementation;init;,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe BinaryTreeImplementation has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(BinaryTreeImplementation;init;,[Default]), UsedName(height$default$1,[Default]), UsedName(root,[Default]), UsedName(insert,[Default]), UsedName(find,[Default]), UsedName(remove,[Default]), UsedName(BinaryTreeImplementation,[Default]), UsedName(isEmpty,[Default]), UsedName(height,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) BinaryTreeImplementation: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) BinaryTreeImplementation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of TestBinaryTree: Set(UsedName(BinaryTreeImplementation;init;,[Default]), UsedName(height$default$1,[Default]), UsedName(root,[Default]), UsedName(insert,[Default]), UsedName(find,[Default]), UsedName(BinaryTreeImplementation,[Default]), UsedName(isEmpty,[Default]), UsedName(height,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe TreeNode has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(TreeNode;init;,[Default]), UsedName(right,[Default]), UsedName(TreeNode,[Default]), UsedName(left,[Default]), UsedName(value,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) TreeNode: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) TreeNode.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of TestBinaryTree: Set(UsedName(right,[Default]), UsedName(TreeNode,[Default]), UsedName(left,[Default]), UsedName(value,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set(/home/gcvasconcelos/Documents/UnB/TP1/tp1-2018/trab1/src/test/scala/TestLinkedList.scala, /home/gcvasconcelos/Documents/UnB/TP1/tp1-2018/trab1/src/test/scala/TestStack.scala, /home/gcvasconcelos/Documents/UnB/TP1/tp1-2018/trab1/src/test/scala/TestBinaryTree.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/test/scala/TestBinaryTree.scala, /home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/test/scala/TestQueue.scala, /home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/test/scala/TestDeque.scala, /home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/test/scala/TestLinkedList.scala, /home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/test/scala/TestStack.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set(/home/gcvasconcelos/Documents/UnB/TP1/tp1-2018/trab1/target/scala-2.12/test-classes/TestLinkedList.class, /home/gcvasconcelos/Documents/UnB/TP1/tp1-2018/trab1/target/scala-2.12/test-classes/TestStack.class, /home/gcvasconcelos/Documents/UnB/TP1/tp1-2018/trab1/target/scala-2.12/test-classes/TestBinaryTree.class)[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set(NamesChange(Node,ModifiedNames(changes = UsedName(next,[Default]), UsedName(Node,[Default]), UsedName(value,[Default]), UsedName(Node;init;,[Default]))), NamesChange(LinkedListImplementation,ModifiedNames(changes = UsedName(LinkedListImplementation,[Default]), UsedName(head,[Default]), UsedName(insert,[Default]), UsedName(LinkedListImplementation;init;,[Default]), UsedName(find,[Default]))), NamesChange(StackImplementation,ModifiedNames(changes = UsedName(StackImplementation;init;,[Default]), UsedName(push,[Default]), UsedName(top,[Default]), UsedName(StackImplementation,[Default]))), NamesChange(BinaryTreeImplementation,ModifiedNames(changes = UsedName(BinaryTreeImplementation;init;,[Default]), UsedName(height$default$1,[Default]), UsedName(root,[Default]), UsedName(insert,[Default]), UsedName(find,[Default]), UsedName(remove,[Default]), UsedName(BinaryTreeImplementation,[Default]), UsedName(isEmpty,[Default]), UsedName(height,[Default]))), NamesChange(TreeNode,ModifiedNames(changes = UsedName(TreeNode;init;,[Default]), UsedName(right,[Default]), UsedName(TreeNode,[Default]), UsedName(left,[Default]), UsedName(value,[Default]))))[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set(/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(TestLinkedList, TestStack, TestBinaryTree)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set(/home/gcvasconcelos/Documents/UnB/TP1/tp1-2018/trab1/src/test/scala/TestLinkedList.scala, /home/gcvasconcelos/Documents/UnB/TP1/tp1-2018/trab1/src/test/scala/TestStack.scala, /home/gcvasconcelos/Documents/UnB/TP1/tp1-2018/trab1/src/test/scala/TestBinaryTree.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set(/home/gcvasconcelos/Documents/UnB/TP1/tp1-2018/trab1/src/test/scala/TestStack.scala, /home/gcvasconcelos/Documents/UnB/TP1/tp1-2018/trab1/src/test/scala/TestLinkedList.scala, /home/gcvasconcelos/Documents/UnB/TP1/tp1-2018/trab1/src/test/scala/TestBinaryTree.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set(TestBinaryTree, TestLinkedList, TestStack)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(TestLinkedList, TestStack, TestBinaryTree)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/test/scala/TestBinaryTree.scala, /home/gcvasconcelos/Documents/UnB/TP1/tp1-2018/trab1/src/test/scala/TestLinkedList.scala, /home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/test/scala/TestQueue.scala, /home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/test/scala/TestDeque.scala, /home/gcvasconcelos/Documents/UnB/TP1/tp1-2018/trab1/src/test/scala/TestStack.scala, /home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/test/scala/TestLinkedList.scala, /home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/test/scala/TestStack.scala, /home/gcvasconcelos/Documents/UnB/TP1/tp1-2018/trab1/src/test/scala/TestBinaryTree.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 5 sources: invalidated sources (8) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 5 Scala sources to /home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/target/scala-2.12/test-classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.1:compile for Scala 2.12.3[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.1:compile for Scala 2.12.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 62d9152b for Scala compiler version 2.12.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/gcvasconcelos/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/target/scala-2.12/test-classes:/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/target/scala-2.12/classes:/home/gcvasconcelos/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.4.jar:/home/gcvasconcelos/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.3.jar:/home/gcvasconcelos/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.0.4.jar:/home/gcvasconcelos/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.5.jar:/home/gcvasconcelos/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCompilation failed (CompilerInterface)[0m
