@@ -1,4 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/main/scala/QueueImplementation.scala:2:28: trait LinkedList takes type parameters[0m
-[0m[[0m[31merror[0m] [0m[0m    private var _elements: LinkedList = new LinkedListImplementation [0m
-[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/main/scala/BinaryTreeImplementation.scala:33:23: type arguments [A] do not conform to method <init>$default$2's type parameter bounds [A <: Ordered[A]][0m
+[0m[[0m[31merror[0m] [0m[0mError occurred in an application involving default arguments.[0m
+[0m[[0m[31merror[0m] [0m[0m        val newNode = new TreeNode[A](value)[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

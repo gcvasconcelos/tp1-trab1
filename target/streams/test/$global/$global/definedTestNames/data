@@ -1,1 +1,1 @@
-["TestStack","TestLinkedList","TestBinaryTree"]
+["TestQueue","TestDeque","TestBinaryTree","TestLinkedList","TestStack"]

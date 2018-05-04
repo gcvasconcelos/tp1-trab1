@@ -1,6 +1,6 @@
-class TreeNode[A <: Ordered[A]](var value: A, var left: TreeNode[A] = null, var right: TreeNode[A] = null)
+class TreeNode[A <% Ordered[A]](var value: A, var left: TreeNode[A] = null, var right: TreeNode[A] = null)
 
-class BinaryTreeImplementation[A <: Ordered[A]] extends BinaryTree[A] {
+class BinaryTreeImplementation[A <% Ordered[A]] extends BinaryTree[A] {
 
     private var _root: TreeNode[A] = _
 
