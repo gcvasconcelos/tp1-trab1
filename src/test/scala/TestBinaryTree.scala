@@ -7,10 +7,10 @@ class TestBinaryTree extends FlatSpec with Matchers with GivenWhenThen with Befo
 	
     behavior of "A BinaryTree"
 
-    var tree: BinaryTreeImplementation = _
+    var tree: BinaryTreeImplementation[Int] = _
 	
 	before {
-		tree = new BinaryTreeImplementation
+		tree = new BinaryTreeImplementation[Int]
 	}
 
 	it should "have be empty before any insertion" in {

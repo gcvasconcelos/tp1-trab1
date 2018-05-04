@@ -1,13 +1,13 @@
-class Node(val value: Int, var next: Node)
+class Node[A](val value: A, var next: Node[A])
 
-class LinkedListImplementation extends LinkedList {
+class LinkedListImplementation[A] extends LinkedList[A] {
     private var _size: Int = 0
-    private var _head: Node = _
+    private var _head: Node[A] = _
 
     def size(): Int = _size
-    def head(): Int = _head.value
+    def head(): A = _head.value
 
-    def find(pos: Int): Node = {
+    def find(pos: Int): Node[A] = {
         var nodeTemp = _head
         if (pos >= 0 && pos <= _size) {
             for (i <- 0 until pos ) {
@@ -19,8 +19,8 @@ class LinkedListImplementation extends LinkedList {
         }
     }
 
-    def insert(value: Int, pos: Int): Unit = {
-        var node = new Node(value, null)
+    def insert(value: A, pos: Int): Unit = {
+        var node = new Node[A](value, null)
         if (pos >= 0 && pos <= _size){
             if (_size == 0) { 
                 _head = node 

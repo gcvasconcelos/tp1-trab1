@@ -4,9 +4,9 @@
  * @author 
  */
 
-trait BinaryTree {
-    def insert(value: Int): Unit
-    def remove(value: Int): Unit
-    def find(value: Int): Boolean
+trait BinaryTree[A <: Ordered[A]] {
+    def insert(value: A): Unit
+    def remove(value: A): Unit
+    def find(value: A): Boolean
     def print(): Unit
 }

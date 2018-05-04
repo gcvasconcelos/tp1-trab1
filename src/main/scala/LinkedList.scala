@@ -4,11 +4,11 @@
  * @author gcvasconcelos
  */
 
-trait LinkedList {
+trait LinkedList[A] {
     def size(): Int 
-    def head(): Int
-    def insert(value: Int, pos: Int): Unit
+    def head(): A
+    def insert(value: A, pos: Int): Unit
     def remove(pos: Int): Unit
     def print(): Unit
-    def find(pos: Int): Node
+    def find(pos: Int): Node[A]
 }

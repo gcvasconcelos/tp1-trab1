@@ -7,10 +7,10 @@ class TestLinkedList extends FlatSpec with Matchers with GivenWhenThen with Befo
 
 	behavior of "A LinkedList"
 
-	var list: LinkedListImplementation = _
+	var list: LinkedListImplementation[Int] = _
 	
 	before {
-		list = new LinkedListImplementation
+		list = new LinkedListImplementation[Int]
 	}
 
 	it should "have size == 0 before any insertion" in {

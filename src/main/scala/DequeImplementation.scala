@@ -12,7 +12,7 @@ class DequeImplementation extends Deque {
     }
 
     def shift(): Unit = {
-        if (size > 0) {st
+        if (size > 0) {
             _elements.remove(0)
         } else {
             throw InvalidMethod()

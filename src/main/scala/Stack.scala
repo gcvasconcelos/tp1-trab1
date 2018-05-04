@@ -4,10 +4,10 @@
  * @author gcvasconcelos
  */
 
-trait Stack {
+trait Stack[A] {
     def size(): Int
     def print(): Unit
-    def push(value: Int): Unit 
+    def push(value: A): Unit 
     def pop(): Unit
-    def top(): Int
+    def top(): A
 }

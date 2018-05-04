@@ -1,14 +1,10 @@
-[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/main/scala/DequeImplementation.scala:15:24: not found: value st[0m
-[0m[[0m[31merror[0m] [0m[0m        if (size > 0) {st[0m
-[0m[[0m[31merror[0m] [0m[0m                       ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/main/scala/DequeImplementation.scala:30:37: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Node[0m
-[0m[[0m[31merror[0m] [0m[0m required: Int[0m
-[0m[[0m[31merror[0m] [0m[0m    def last(): Int = _elements.find(size-1)[0m
-[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/main/scala/DequeImplementation.scala:32:38: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Node[0m
-[0m[[0m[31merror[0m] [0m[0m required: Int[0m
-[0m[[0m[31merror[0m] [0m[0m    def first(): Int = _elements.find(0)[0m
-[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/main/scala/DequeImplementation.scala:2:28: trait LinkedList takes type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m    private var _elements: LinkedList = new LinkedListImplementation [0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/main/scala/QueueImplementation.scala:2:28: trait LinkedList takes type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m    private var _elements: LinkedList = new LinkedListImplementation [0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/main/scala/StackImplementation.scala:2:28: trait LinkedList takes type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m    private var _elements: LinkedList = new LinkedListImplementation [0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
 [0m[[0m[31merror[0m] [0m[0mthree errors found[0m

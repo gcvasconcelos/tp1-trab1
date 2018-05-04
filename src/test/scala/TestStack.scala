@@ -7,10 +7,10 @@ class TestStack extends FlatSpec with Matchers with GivenWhenThen with BeforeAnd
 
   behavior of "A Stack"
 
-  var stack: StackImplementation = _
+  var stack: StackImplementation[Int] = _
 	
 	before {
-		stack = new StackImplementation
+		stack = new StackImplementation[Int]
 	}
 
     it should "have size == 0 before any insertion" in {

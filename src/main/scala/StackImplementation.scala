@@ -1,10 +1,10 @@
-class StackImplementation extends Stack {
+class StackImplementation[A] extends Stack[A] {
     private var _elements: LinkedList = new LinkedListImplementation 
 
     def size(): Int = _elements.size
     def print(): Unit = _elements.print
 
-    def push(value: Int): Unit = {
+    def push(value: A): Unit = {
         _elements.insert(value, size)
     }
 
@@ -16,7 +16,7 @@ class StackImplementation extends Stack {
         }
     }
 
-    def top(): Int = {
+    def top(): A = {
         _elements.find(size-1).value
     }
 }

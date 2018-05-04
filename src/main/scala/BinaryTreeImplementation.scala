@@ -1,11 +1,12 @@
-class TreeNode(var value: Int, var left: TreeNode = null, var right: TreeNode = null)
+class TreeNode[A <: Ordered[A]](var value: A, var left: TreeNode[A] = null, var right: TreeNode[A] = null)
 
-class BinaryTreeImplementation extends BinaryTree {
-    private var _root: TreeNode = _
+class BinaryTreeImplementation[A <: Ordered[A]] extends BinaryTree[A] {
 
-    def root(): TreeNode = _root
+    private var _root: TreeNode[A] = _
 
-    def height(node: TreeNode = root): Int = {
+    def root(): TreeNode[A] = _root
+
+    def height(node: TreeNode[A] = root): Int = {
         if (isEmpty(node)) {
             0
         } else {
@@ -20,7 +21,7 @@ class BinaryTreeImplementation extends BinaryTree {
         }
     }
 
-    def isEmpty(node: TreeNode): Boolean = {
+    def isEmpty(node: TreeNode[A]): Boolean = {
         if (node == null) {
             true
         } else {
@@ -28,14 +29,14 @@ class BinaryTreeImplementation extends BinaryTree {
         }
     }
 
-    def insert(value: Int): Unit = {
-        val newNode = new TreeNode(value)
+    def insert(value: A): Unit = {
+        val newNode = new TreeNode[A](value)
 
         if (isEmpty(root)) {
             _root = newNode
         } else {
-            var currentNode: TreeNode = root
-            var nextNode: TreeNode = null
+            var currentNode: TreeNode[A] = root
+            var nextNode: TreeNode[A] = null
             var loop = true
 
             while (loop) {
@@ -57,8 +58,8 @@ class BinaryTreeImplementation extends BinaryTree {
         }
     }
 
-    def find(value: Int): Boolean = {
-        var currentNode: TreeNode = root
+    def find(value: A): Boolean = {
+        var currentNode: TreeNode[A] = root
         var nodeFound: Boolean = false
 
         while (currentNode != null && nodeFound == false) {
@@ -73,7 +74,7 @@ class BinaryTreeImplementation extends BinaryTree {
         nodeFound
     }
 
-    def remove(value: Int): Unit = {
+    def remove(value: A): Unit = {
         
     }
 
