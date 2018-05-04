@@ -27,3 +27,13 @@ run
 test
 ls
 test
+load 
+help
+project
+a
+size
+compile
+git log
+test
+compile
+test
