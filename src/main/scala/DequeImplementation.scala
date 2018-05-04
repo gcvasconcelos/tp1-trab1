@@ -1,13 +1,13 @@
-class DequeImplementation extends Deque {
-    private var _elements: LinkedList = new LinkedListImplementation 
+class DequeImplementation[A] extends Deque[A] {
+    private var _elements: LinkedList[A] = new LinkedListImplementation[A]
 
     def size(): Int = _elements.size
 
-    def push(value: Int): Unit = {
+    def push(value: A): Unit = {
         _elements.insert(value, size)
     }
 
-    def unshift(value: Int): Unit = {
+    def unshift(value: A): Unit = {
         _elements.insert(value, 0)
     }
 
@@ -27,7 +27,7 @@ class DequeImplementation extends Deque {
         }
     }
 
-    def last(): Int = _elements.find(size-1)
+    def last(): A = _elements.find(size-1)
 
-    def first(): Int = _elements.find(0)
+    def first(): A = _elements.find(0)
 }

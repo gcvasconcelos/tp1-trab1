@@ -1,5 +1,5 @@
 class StackImplementation[A] extends Stack[A] {
-    private var _elements: LinkedList = new LinkedListImplementation 
+    private var _elements: LinkedList[A] = new LinkedListImplementation[A]
 
     def size(): Int = _elements.size
     def print(): Unit = _elements.print
