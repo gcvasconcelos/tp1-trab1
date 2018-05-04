@@ -4,5 +4,4 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- should have size increased by 1 after any insertion[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should have size decreased by 1 after any deletion[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should throw InvalidMethod if dequeue() is called in an empty queue[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- should return first element when dequeue() is called *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  <(), the Unit value> was not equal to 3 (TestQueue.scala:57)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return first element when dequeue() is called[0m[0m

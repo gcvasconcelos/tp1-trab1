@@ -6,6 +6,8 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- should insert node to the right if parent value is higher or equal[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should have height = 3 if 3 numbers in ascending order are inserted[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should have height = 2 if numbers 2,1,3 are inserted[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- should return true when a node is found *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  false was not true (TestBinaryTree.scala:60)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should return false when the node is not found in the tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should delete node with no children correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should delete node with one children and link its children with its parent *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  TreeNode@3b118cf3 was not equal to 3 (TestBinaryTree.scala:87)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should delete node with two children and link its children with its parent *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  TreeNode@5ff7796b was not equal to 3 (TestBinaryTree.scala:98)[0m[0m
