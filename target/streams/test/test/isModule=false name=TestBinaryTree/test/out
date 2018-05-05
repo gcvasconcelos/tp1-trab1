@@ -4,7 +4,3 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- should set the root after first insertion[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should insert node to the left if parent value is lower[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should insert node to the right if parent value is higher or equal[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should have height = 3 if 3 numbers in ascending order are inserted[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should have height = 4 if numbers 3,1,6,4,5 are inserted[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should return true when a node is found[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should return false when the node is not found in the tree[0m[0m

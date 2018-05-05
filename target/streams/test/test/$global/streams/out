@@ -1,10 +1,10 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestDeque, org.scalatest.tools.Framework$$anon$1@267486e4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestHash, org.scalatest.tools.Framework$$anon$1@267486e4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestStack, org.scalatest.tools.Framework$$anon$1@267486e4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestLinkedList, org.scalatest.tools.Framework$$anon$1@267486e4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestBinaryTree, org.scalatest.tools.Framework$$anon$1@267486e4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestQueue, org.scalatest.tools.Framework$$anon$1@267486e4, false, [SuiteSelector])[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 298 milliseconds.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestQueue, org.scalatest.tools.Framework$$anon$1@216e9ed2, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestBinaryTree, org.scalatest.tools.Framework$$anon$1@216e9ed2, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestLinkedList, org.scalatest.tools.Framework$$anon$1@216e9ed2, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestStack, org.scalatest.tools.Framework$$anon$1@216e9ed2, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestHash, org.scalatest.tools.Framework$$anon$1@216e9ed2, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestDeque, org.scalatest.tools.Framework$$anon$1@216e9ed2, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 303 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 37[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 6, aborted 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 37, failed 0, canceled 0, ignored 0, pending 0[0m[0m
