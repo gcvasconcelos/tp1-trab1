@@ -40,16 +40,18 @@ test
 compile
 test
 compile
-testQueue
-test: TestQueue
-test TestQueue
-test
-compile
 test
 test TestBinaryTree
 test TestBinaryTree.scala
 test /TestBinaryTree
 test ./TestBinaryTree
 test
+compile
+test
+compile
+test
+compile
+test
+ls
 compile
 test

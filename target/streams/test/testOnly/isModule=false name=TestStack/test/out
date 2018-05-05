@@ -1,5 +1,0 @@
-[0m[[0m[0minfo[0m] [0m[0m[32mTestStack:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mA Stack[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should have size == 0 before any insertion[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- should have size increased by 1 after any insertion *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  0 was not equal to 1 (TestStack.scala:23)[0m[0m
