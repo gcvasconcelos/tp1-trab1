@@ -1,11 +1,11 @@
 /**
  * 
  *
- * @author 
+ * @author gcvasconcelos
  */
 
-trait Heap {
-    def insert(value: Int): Unit
-    def print(): Unit
-    def getMinValue(): Int
+trait Heap[A] {
+    def insert(value: A): Unit
+    def delete(index: Int): Unit
+    // def getMinValue(): A
 }
