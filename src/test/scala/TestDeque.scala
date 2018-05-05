@@ -54,15 +54,20 @@ class TestDeque extends FlatSpec with Matchers with GivenWhenThen with BeforeAnd
         deque.push(5)
         deque.push(7)
 
-        deque.shift should be (3)
+        deque.first should be (3)
 
-        deque.shift should be (5)
+        deque.shift
+
+        deque.first should be (5)
 
         deque.unshift(11)
         
-        deque.shift should be (11) 
+        deque.first should be (11) 
 
-        deque.shift should be (7)
+        deque.shift
+        deque.shift
+
+        deque.first should be (7)
 
     }
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
 [0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
@@ -51,3 +52,6 @@
 [0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set()[0m
+=======
+[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m
+>>>>>>> ec7484a58a773a7d3b445c615e6a447e9b813c87

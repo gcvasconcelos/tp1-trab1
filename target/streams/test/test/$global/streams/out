@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestQueue, org.scalatest.tools.Framework$$anon$1@5b9d9e6d, false, [SuiteSelector])[0m
 [0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestDeque, org.scalatest.tools.Framework$$anon$1@5b9d9e6d, false, [SuiteSelector])[0m
 [0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestLinkedList, org.scalatest.tools.Framework$$anon$1@5b9d9e6d, false, [SuiteSelector])[0m
@@ -15,3 +16,23 @@
 [0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
 [0m[[0m[31merror[0m] [0m[0m	TestQueue[0m
 [0m[[0m[31merror[0m] [0m[0m	TestDeque[0m
+=======
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestLinkedList, org.scalatest.tools.Framework$$anon$1@345ca70f, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestQueue, org.scalatest.tools.Framework$$anon$1@345ca70f, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestStack, org.scalatest.tools.Framework$$anon$1@345ca70f, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestDeque, org.scalatest.tools.Framework$$anon$1@345ca70f, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestBinaryTree, org.scalatest.tools.Framework$$anon$1@345ca70f, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 337 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 33[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 5, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 31, failed 2, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 2 TESTS FAILED ***[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TestQueue[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TestDeque[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TestLinkedList[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TestStack[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	TestBinaryTree[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+>>>>>>> ec7484a58a773a7d3b445c615e6a447e9b813c87
