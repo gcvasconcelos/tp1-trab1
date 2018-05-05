@@ -55,3 +55,5 @@ test
 ls
 compile
 test
+compile
+test

@@ -1,0 +1,34 @@
+[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/main/scala/Hash.scala:8:23: not found: value _size[0m
+[0m[[0m[31merror[0m] [0m[0m    def size(): Int = _size[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/main/scala/Hash.scala:10:33: not found: type A[0m
+[0m[[0m[31merror[0m] [0m[0m    def insert(key: Int, value: A): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/main/scala/Hash.scala:12:16: not found: value hashTable[0m
+[0m[[0m[31merror[0m] [0m[0m        while (hashTable(hashKey) != null && hashTable(hashKey).key != key) {[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/main/scala/Hash.scala:12:46: not found: value hashTable[0m
+[0m[[0m[31merror[0m] [0m[0m        while (hashTable(hashKey) != null && hashTable(hashKey).key != key) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/main/scala/Hash.scala:15:9: not found: value hashTable[0m
+[0m[[0m[31merror[0m] [0m[0m        hashTable(hashKey) = new HashNode[A](key, value)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/main/scala/Hash.scala:15:43: not found: type A[0m
+[0m[[0m[31merror[0m] [0m[0m        hashTable(hashKey) = new HashNode[A](key, value)[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/main/scala/Hash.scala:18:25: not found: type A[0m
+[0m[[0m[31merror[0m] [0m[0m    def find(key: Int): A = {[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/main/scala/Hash.scala:20:16: not found: value hashTable[0m
+[0m[[0m[31merror[0m] [0m[0m        while (hashTable(hashKey) != null && hashTable(hashKey).key != key) {[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/main/scala/Hash.scala:20:46: not found: value hashTable[0m
+[0m[[0m[31merror[0m] [0m[0m        while (hashTable(hashKey) != null && hashTable(hashKey).key != key) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/main/scala/Hash.scala:23:13: not found: value hashTable[0m
+[0m[[0m[31merror[0m] [0m[0m        if (hashTable(hashKey) == null) {[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/main/scala/Hash.scala:26:13: not found: value hashTable[0m
+[0m[[0m[31merror[0m] [0m[0m            hashTable(hashKey).value[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m11 errors found[0m

@@ -1,0 +1,7 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mTestHash:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA Hash[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should have immutable size[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should insert a node with key-value pair and keep size unchaged[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should find an element by its key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should solve key conflicts with linear probing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw InvalidArgument when key was not found[0m[0m
