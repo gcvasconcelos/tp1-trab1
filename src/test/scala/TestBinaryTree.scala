@@ -14,7 +14,7 @@ class TestBinaryTree extends FlatSpec with Matchers with GivenWhenThen with Befo
 	}
 
 	it should "have be empty before any insertion" in {
-		tree.isEmpty(tree.root) should be (true)
+		tree.root should be (null)
 	}
 	
 	it should "set the root after first insertion" in {
@@ -44,57 +44,59 @@ class TestBinaryTree extends FlatSpec with Matchers with GivenWhenThen with Befo
 		tree.height() should be (3)
 	}
 
-	it should "have height = 2 if numbers 2,1,3 are inserted" in {
-		tree.insert(2)
-		tree.insert(1)
+	it should "have height = 4 if numbers 3,1,6,4,5 are inserted" in {
 		tree.insert(3)
-
-		tree.height() should be (2)
-	}
-
-	// it should "return true when a node is found" in {
-	// 	tree.insert(2)
-	// 	tree.insert(1)
-	// 	tree.insert(3)
-
-	// 	tree.find(3) should be (true) 
-	// }
-
-	// it should "return false when the node is not found in the tree" in {
-	// 	tree.insert(2)
-	// 	tree.insert(1)
-	// 	tree.insert(3)
-
-	// 	tree.find(4) should be (false) 
-	// }
-
-	it should "delete node with no children correctly" in {
-		tree.insert(2)
 		tree.insert(1)
-		tree.insert(3)
-		tree.remove(1)
-
-		tree.find(1) should be (false)
-	}
-
-	it should "delete node with one children and link its children with its parent" in {
-		tree.insert(2)
-		tree.insert(1)
-		tree.insert(5)
-		tree.insert(3)
-		tree.remove(5)
-
-		tree.root.right should be (3)
-	}
-
-	it should "delete node with two children and link its children with its parent" in {
-		tree.insert(2)
-		tree.insert(1)
-		tree.insert(5)
-		tree.insert(3)
 		tree.insert(6)
-		tree.remove(5)
+		tree.insert(4)
+		tree.insert(5)
 
-		tree.root.right should be (3)
+		tree.height() should be (4)
 	}
+
+	it should "return true when a node is found" in {
+		tree.insert(2)
+		tree.insert(1)
+		tree.insert(3)
+
+		tree.find(3) should be (true) 
+	}
+
+	it should "return false when the node is not found in the tree" in {
+		tree.insert(2)
+		tree.insert(1)
+		tree.insert(3)
+
+		tree.find(4) should be (false) 
+	}
+
+	// it should "delete node with no children correctly" in {
+	// 	tree.insert(2)
+	// 	tree.insert(1)
+	// 	tree.insert(3)
+	// 	tree.remove(1)
+
+	// 	tree.find(1) should be (false)
+	// }
+
+	// it should "delete node with one children and link its children with its parent" in {
+	// 	tree.insert(2)
+	// 	tree.insert(1)
+	// 	tree.insert(5)
+	// 	tree.insert(3)
+	// 	tree.remove(5)
+
+	// 	tree.root.right should be (3)
+	// }
+
+	// it should "delete node with two children and link its children with its parent" in {
+	// 	tree.insert(2)
+	// 	tree.insert(1)
+	// 	tree.insert(5)
+	// 	tree.insert(3)
+	// 	tree.insert(6)
+	// 	tree.remove(5)
+
+	// 	tree.root.right should be (3)
+	// }
 }

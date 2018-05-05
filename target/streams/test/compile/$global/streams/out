@@ -1,13 +1,10 @@
-[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/test/scala/TestBinaryTree.scala:10:15: type arguments [Int] do not conform to class BinaryTreeImplementation's type parameter bounds [A <: Ordered[A]][0m
-[0m[[0m[31merror[0m] [0m[0m    var tree: BinaryTreeImplementation[Int] = _[0m
-[0m[[0m[31merror[0m] [0m[0m              ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/test/scala/TestBinaryTree.scala:13:14: type arguments [Int] do not conform to class BinaryTreeImplementation's type parameter bounds [A <: Ordered[A]][0m
-[0m[[0m[31merror[0m] [0m[0m		tree = new BinaryTreeImplementation[Int][0m
-[0m[[0m[31merror[0m] [0m[0m		           ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/test/scala/TestBinaryTree.scala:87:13: type arguments [Int] do not conform to class TreeNode's type parameter bounds [A <: Ordered[A]][0m
-[0m[[0m[31merror[0m] [0m[0m		tree.root.right should be (3)[0m
-[0m[[0m[31merror[0m] [0m[0m		          ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/test/scala/TestBinaryTree.scala:98:13: type arguments [Int] do not conform to class TreeNode's type parameter bounds [A <: Ordered[A]][0m
-[0m[[0m[31merror[0m] [0m[0m		tree.root.right should be (3)[0m
-[0m[[0m[31merror[0m] [0m[0m		          ^[0m
-[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/test/scala/TestBinaryTree.scala:17:8: value isEmpty is not a member of BinaryTreeImplementation[Int][0m
+[0m[[0m[31merror[0m] [0m[0m		tree.isEmpty(tree.root) should be (true)[0m
+[0m[[0m[31merror[0m] [0m[0m		     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/test/scala/TestBinaryTree.scala:44:8: value height is not a member of BinaryTreeImplementation[Int][0m
+[0m[[0m[31merror[0m] [0m[0m		tree.height() should be (3)[0m
+[0m[[0m[31merror[0m] [0m[0m		     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/test/scala/TestBinaryTree.scala:54:8: value height is not a member of BinaryTreeImplementation[Int][0m
+[0m[[0m[31merror[0m] [0m[0m		tree.height() should be (4)[0m
+[0m[[0m[31merror[0m] [0m[0m		     ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

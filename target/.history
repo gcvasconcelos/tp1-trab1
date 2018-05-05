@@ -41,3 +41,10 @@ compile
 test
 compile
 test
+test TestBinaryTree
+test TestBinaryTree.scala
+test /TestBinaryTree
+test ./TestBinaryTree
+test
+compile
+test

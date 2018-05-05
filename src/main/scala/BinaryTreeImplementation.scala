@@ -1,82 +1,109 @@
-class TreeNode[A <% Ordered[A]](var value: A, var left: TreeNode[A] = null, var right: TreeNode[A] = null)
+class TreeNode[A <% Ordered[A]](var value: A, var left: TreeNode[A] = null, var right: TreeNode[A] = null) {
+    def insert(inserted_value: A) {
+        if(inserted_value.compareTo(value) <= 0) {
+            if(left == null) {
+                left = new TreeNode(inserted_value)
+            }
+            else {
+                left.insert(inserted_value)
+            }
+        }
+        else {
+            if(right == null) {
+                right = new TreeNode(inserted_value)
+            }
+            else {
+                right.insert(inserted_value)
+            }
+        }
+    }
+
+    def find(find_value: A) : Boolean = {
+        if(find_value.compareTo(value) == 0) {
+            true
+        }
+        else if ((find_value.compareTo(value) <= 0) && left != null) {
+            left.find(find_value)
+        }
+        else if (right != null) {
+            right.find(find_value)
+        }
+        else {
+            false 
+        }
+    }
+
+    def remove(removed_value: A, parent: TreeNode[A] = null) {
+        if(removed_value < value && left != null) {
+            left.remove(removed_value, this)
+        }
+        else if (removed_value > value && right != null) {
+            right.remove(removed_value, this)
+        }
+        else {
+            if (left != null && right != null) {
+                value = right.minValue()
+                right.remove(value, this)
+            } else if (parent.left == this) {
+                if(left != null) parent.left = left
+                else parent.left = right
+            } else if (parent.right == this) {
+                if(left != null) parent.right = left
+                else parent.right = right
+            }
+        }
+    }
+
+    def minValue(): A = {
+        if (left == null) { 
+            value
+        }
+        else {
+            left.minValue()
+        }
+    }
+}
 
 class BinaryTreeImplementation[A <% Ordered[A]] extends BinaryTree[A] {
-
-    private var _root: TreeNode[A] = _
-
-    def root(): TreeNode[A] = _root
-
+    var root: TreeNode[A] = null
+    
+    def insert(value: A): Unit = {
+        if (root == null) {
+            root = new TreeNode(value)
+        } else {
+            root.insert(value)
+        }
+    }
+    def remove(value: A): Unit = {
+        if (root == null) {
+            throw InvalidMethod()
+        } else {
+            root.remove(value)
+        }
+    }
+    def find(value: A): Boolean = {
+        if (root == null) {
+            false
+        } else {
+            root.find(value)
+        }
+    }
     def height(node: TreeNode[A] = root): Int = {
-        if (isEmpty(node)) {
+        if (node ==  null) {
             0
         } else {
             var leftHeight: Int = height(node.left)
             var rightHeight: Int = height(node.right)
 
-            if (leftHeight > rightHeight) {
-                leftHeight + 1
-            } else {
+            if (leftHeight < rightHeight) {
                 rightHeight + 1
-            }
-        }
-    }
-
-    def isEmpty(node: TreeNode[A]): Boolean = {
-        if (node == null) {
-            true
-        } else {
-            false
-        }
-    }
-
-    def insert(value: A): Unit = {
-        val newNode = new TreeNode[A](value)
-
-        if (isEmpty(root)) {
-            _root = newNode
-        } else {
-            var currentNode: TreeNode[A] = root
-            var nextNode: TreeNode[A] = null
-            var loop = true
-
-            while (loop) {
-                nextNode = currentNode
-                if (value >= currentNode.value) {
-                    currentNode = currentNode.right
-                    if (isEmpty(currentNode)){
-                        nextNode.right = newNode
-                        loop = false
-                    }
-                } else {
-                    currentNode = currentNode.left
-                    if (isEmpty(currentNode)){
-                        nextNode.left = newNode
-                        loop = false
-                    }
-                }            
-            }
-        }
-    }
-
-    def find(value: A): Boolean = {
-        var currentNode: TreeNode[A] = root
-        var nodeFound: Boolean = false
-
-        while (currentNode != null && nodeFound == false) {
-            if (currentNode.value < value) {
-                currentNode = currentNode.left
-            } else if (currentNode.value > value) {
-                currentNode = currentNode.right
             } else {
-                nodeFound = true
+                leftHeight + 1
             }
         }
-        nodeFound
-    }
-
-    def remove(value: A): Unit = {
         
     }
+    def print(): Unit = {
 
-    def print(): Unit = {}
+    }
 }
