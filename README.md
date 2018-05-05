@@ -10,18 +10,18 @@ O código foi desenvolvido seguindo as boas práticas sugeridas neste [guia](htt
 
 ## Lista de Implementações
 
-[x] Lista encadeada
-[x] Pilha
-[x] Fila
-[x] Deque
-[] Lista encadeada circular
-[] Lista duplamente encadeada
-[] Heap
-[] Grafo
-[] Árvore Binária
-[] Tabela de Hash
-[] Sets
-[] Maps
-[] Trie
+- [x] Lista encadeada
+- [x] Pilha
+- [x] Fila
+- [x] Deque
+- [] Lista encadeada circular
+- [] Lista duplamente encadeada
+- [] Heap
+- [] Grafo
+- [x] Árvore Binária
+- [x] Tabela de Hash
+- [] Sets
+- [] Maps
+- [] Trie
 
 https://medium.freecodecamp.org/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b
