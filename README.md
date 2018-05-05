@@ -2,11 +2,7 @@
 
 ## Introdução
 
-O trabalho consiste no desenvolvimento de uma biblioteca de estruturas de dados. Foi desenvolvido utilizando a linguagem Scala, orientada a testes.
-
-## Boas práticas
-
-O código foi desenvolvido seguindo as boas práticas sugeridas neste [guia](https://github.com/alexandru/scala-best-practices).
+O trabalho consiste no desenvolvimento de uma biblioteca de estruturas de dados. Foi desenvolvido utilizando a linguagem Scala, com metodologia orientada a testes, utilizando a biblioteca Scala Test.
 
 ## Lista de Implementações
 
@@ -14,14 +10,19 @@ O código foi desenvolvido seguindo as boas práticas sugeridas neste [guia](htt
 - [x] Pilha
 - [x] Fila
 - [x] Deque
-- [] Lista encadeada circular
-- [] Lista duplamente encadeada
-- [] Heap
-- [] Grafo
+- [ ] Lista encadeada circular
+- [ ] Lista duplamente encadeada
+- [ ] Heap
+- [ ] Grafo
 - [x] Árvore Binária
 - [x] Tabela de Hash
-- [] Sets
-- [] Maps
-- [] Trie
+- [ ] Sets
+- [ ] Maps
+- [ ] Trie
 
-https://medium.freecodecamp.org/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b
+
+## Material de Estudo
+
+- https://medium.freecodecamp.org/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b
+- https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm
+- https://www.studytonight.com/data-structures/introduction-to-data-structures
