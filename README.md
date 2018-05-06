@@ -17,7 +17,7 @@ O trabalho consiste no desenvolvimento de uma biblioteca de estruturas de dados.
 - [x] Árvore Binária
 - [x] Tabela de Hash
 - [x] Sets
-- [ ] Maps
+- [x] Maps
 - [ ] Trie
 
 

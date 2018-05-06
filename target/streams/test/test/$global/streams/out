@@ -1,12 +1,12 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestStack, org.scalatest.tools.Framework$$anon$1@7e3baa67, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestQueue, org.scalatest.tools.Framework$$anon$1@7e3baa67, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestMap, org.scalatest.tools.Framework$$anon$1@7e3baa67, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestSet, org.scalatest.tools.Framework$$anon$1@7e3baa67, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestDeque, org.scalatest.tools.Framework$$anon$1@7e3baa67, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestHash, org.scalatest.tools.Framework$$anon$1@7e3baa67, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestLinkedList, org.scalatest.tools.Framework$$anon$1@7e3baa67, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestBinaryTree, org.scalatest.tools.Framework$$anon$1@7e3baa67, false, [SuiteSelector])[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 244 milliseconds.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestMap, org.scalatest.tools.Framework$$anon$1@634a80fd, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestLinkedList, org.scalatest.tools.Framework$$anon$1@634a80fd, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestHash, org.scalatest.tools.Framework$$anon$1@634a80fd, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestDeque, org.scalatest.tools.Framework$$anon$1@634a80fd, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestBinaryTree, org.scalatest.tools.Framework$$anon$1@634a80fd, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestQueue, org.scalatest.tools.Framework$$anon$1@634a80fd, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestStack, org.scalatest.tools.Framework$$anon$1@634a80fd, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestSet, org.scalatest.tools.Framework$$anon$1@634a80fd, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 340 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 53[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 8, aborted 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 53, failed 0, canceled 0, ignored 0, pending 0[0m[0m
