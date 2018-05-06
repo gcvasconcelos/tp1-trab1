@@ -1,4 +1,5 @@
 #Successful Tests
+<<<<<<< HEAD
 #Sun May 06 11:31:34 BRT 2018
 TestDeque=1525617094028
 TestLinkedList=1525617094114
@@ -8,3 +9,11 @@ TestMap=1525617094006
 TestSet=1525617094104
 TestBinaryTree=1525617094171
 TestHash=1525617094069
+=======
+#Sat May 05 00:28:31 BRT 2018
+TestDeque=1525490911818
+TestLinkedList=1525490911908
+TestQueue=1525490911835
+TestStack=1525490911892
+TestBinaryTree=1525490911829
+>>>>>>> heap

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestDeque, org.scalatest.tools.Framework$$anon$1@6d6b8a8e, false, [SuiteSelector])[0m
 [0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestMap, org.scalatest.tools.Framework$$anon$1@6d6b8a8e, false, [SuiteSelector])[0m
 [0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestQueue, org.scalatest.tools.Framework$$anon$1@6d6b8a8e, false, [SuiteSelector])[0m
@@ -11,6 +12,19 @@
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 8, aborted 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 54, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+=======
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestDeque, org.scalatest.tools.Framework$$anon$1@1e2aceb6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestQueue, org.scalatest.tools.Framework$$anon$1@1e2aceb6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestBinaryTree, org.scalatest.tools.Framework$$anon$1@1e2aceb6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestHeap, org.scalatest.tools.Framework$$anon$1@1e2aceb6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestStack, org.scalatest.tools.Framework$$anon$1@1e2aceb6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestLinkedList, org.scalatest.tools.Framework$$anon$1@1e2aceb6, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 466 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 34[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 6, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 33, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+>>>>>>> heap
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	TestQueue[0m
 [0m[[0m[0mdebug[0m] [0m[0m	TestDeque[0m
@@ -18,5 +32,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m	TestBinaryTree[0m
 [0m[[0m[0mdebug[0m] [0m[0m	TestLinkedList[0m
 [0m[[0m[0mdebug[0m] [0m[0m	TestStack[0m
+<<<<<<< HEAD
 [0m[[0m[0mdebug[0m] [0m[0m	TestMap[0m
 [0m[[0m[0mdebug[0m] [0m[0m	TestSet[0m
+=======
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	TestHeap[0m
+>>>>>>> heap
