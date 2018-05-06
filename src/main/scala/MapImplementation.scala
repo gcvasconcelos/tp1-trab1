@@ -35,7 +35,6 @@ class MapImplementation[A: Manifest,B: Manifest](size: Int) extends Map[A,B] {
             throw InvalidArgument()
         }
         if (find(key) != null) {
-            println("Not inserted. Element has duplicate")
             return
         }
         var insertedNode = new MapNode(key, value)

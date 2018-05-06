@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-["TestQueue","TestDeque","TestHash","TestBinaryTree","TestLinkedList","TestStack","TestMap","TestSet"]
-=======
-["TestQueue","TestDeque","TestBinaryTree","TestLinkedList","TestStack","TestHeap"]
->>>>>>> heap
+["TestQueue","TestDeque","TestHash","TestBinaryTree","TestLinkedList","TestStack","TestSorting","TestMap","TestSet"]

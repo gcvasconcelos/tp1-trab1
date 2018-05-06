@@ -75,7 +75,10 @@ testOnly *TestMap
 test
 testOnly *TestMap
 test
-<<<<<<< HEAD
-=======
 compile
->>>>>>> heap
+test
+testOnly TestSorting
+compile
+testOnly TestSorting
+test
+testOnly TestSorting

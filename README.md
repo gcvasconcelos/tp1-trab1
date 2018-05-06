@@ -20,9 +20,9 @@ O trabalho consiste no desenvolvimento de uma biblioteca de estruturas de dados.
 
 ## Lista de Implementações de Algoritmos de Sorting
 
-- [ ] Bubble Sort
-- [ ] Insertion Sort
-- [ ] Selection Sort
+- [x] Bubble Sort
+- [x] Selection Sort
+- [x] Insertion Sort
 - [ ] Quick Sort
 - [ ] Merge Sort
 

@@ -8,9 +8,6 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- should have height = 4 if numbers 3,1,6,4,5 are inserted[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should return true when a node is found[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should return false when the node is not found in the tree[0m[0m
-<<<<<<< HEAD
 [0m[[0m[0minfo[0m] [0m[0m[32m- should delete node with no children correctly[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should delete node with one children and link its children with its parent[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should delete node with two children and link its children with its parent[0m[0m
-=======
->>>>>>> heap

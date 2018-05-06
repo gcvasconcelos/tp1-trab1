@@ -13,7 +13,6 @@ class SetImplementation[A: Manifest](size: Int) extends Set[A] {
         }
         for (i <- 0 until size) {
             if (value == setArray(i)) {
-                println("Not inserted. Element has duplicate")
                 return
             }
         }
