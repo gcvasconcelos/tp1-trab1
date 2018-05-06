@@ -5,9 +5,7 @@
  */
 
 trait Graph {
-    def insert(value: A, destination: Int): Unit
-    def remove(value: A): Unit
-    def print(): Unit
+    def insert(value: A): Unit
+    def addEdge(source: A, destination: A): Unit
     def getNodes(): Array[A]
-    def getEdges(): Array[A]
 }
