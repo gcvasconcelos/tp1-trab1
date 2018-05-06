@@ -1,7 +1,3 @@
 [0m[[0m[0minfo[0m] [0m[0m[32mTestDeque:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mA Deque[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should have size == 0 before any insertion[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should have size increased by 1 after any insertion[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should have size decreased by 1 after any deletion[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should throw InvalidMethod if pop() is called in an empty queue[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should return first element when shift() is called[0m[0m
