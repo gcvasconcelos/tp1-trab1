@@ -83,3 +83,5 @@ testOnly TestSorting
 test
 testOnly TestSorting
 test
+compile
+test

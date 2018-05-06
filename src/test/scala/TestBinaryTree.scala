@@ -5,9 +5,9 @@ import org.scalatest.BeforeAndAfter
 
 class TestBinaryTree extends FlatSpec with Matchers with GivenWhenThen with BeforeAndAfter {
 	
-    behavior of "A BinaryTree"
+  behavior of "A BinaryTree"
 
-    var tree: BinaryTreeImplementation[Int] = _
+  var tree: BinaryTreeImplementation[Int] = _
 	
 	before {
 		tree = new BinaryTreeImplementation[Int]
