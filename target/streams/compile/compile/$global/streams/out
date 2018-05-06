@@ -1,6 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/main/scala/MaxHeapImplementation.scala:5:29: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
-[0m[[0m[31merror[0m] [0m[0m required: A[0m
-[0m[[0m[31merror[0m] [0m[0m    var heapArray = List[A](size)[0m
-[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gcvasconcelos/Documents/UnB/2018-1/TP1/tp1-2018/trab1/src/main/scala/MaxHeapImplementation.scala:6:18: overloaded method size needs result type[0m
+[0m[[0m[31merror[0m] [0m[0m    def size() = size [0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

@@ -60,3 +60,19 @@ test
 compile
 test
 compile
+test
+test]
+test
+compile
+test
+compile
+test
+compile
+test
+test-only *TestMap
+testonly *TestMap
+testOnly *TestMap
+test
+testOnly *TestMap
+test
+compile
