@@ -23,8 +23,6 @@ O trabalho consiste no desenvolvimento de uma biblioteca de estruturas de dados.
 - [x] Bubble Sort
 - [x] Selection Sort
 - [x] Insertion Sort
-- [ ] Quick Sort
-- [ ] Merge Sort
 
 
 ## Material de Estudo

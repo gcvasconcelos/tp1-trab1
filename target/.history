@@ -82,3 +82,4 @@ compile
 testOnly TestSorting
 test
 testOnly TestSorting
+test
