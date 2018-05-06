@@ -55,6 +55,8 @@ test
 ls
 compile
 test
-var array = [1,2]
-var array: Array = [1,2]
+compile
 test
+compile
+test
+compile
