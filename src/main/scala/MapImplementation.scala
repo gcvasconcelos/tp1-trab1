@@ -56,4 +56,12 @@ class MapImplementation[A: Manifest,B: Manifest](size: Int) extends Map[A,B] {
         }
         removedElement
     }
+
+    def updateValue(key: A, value: B): Unit = {
+        for (i <- 0 until size) {
+            if (mapArray(i) != null && mapArray(i).key == key) {
+                mapArray(i).value = value
+            }
+        }
+    }
 }

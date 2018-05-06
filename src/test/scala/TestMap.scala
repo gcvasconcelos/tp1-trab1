@@ -38,6 +38,7 @@ class TestMap extends FlatSpec with Matchers with GivenWhenThen with BeforeAndAf
 		map.insert("c", 333)
 
         map.remove("b").value should be (222)
+		map.find("b") should be (null)
 	}
 
     it should "return array of values and of keys of the map" in {
@@ -48,5 +49,14 @@ class TestMap extends FlatSpec with Matchers with GivenWhenThen with BeforeAndAf
         map.keys should be (Array("a", "b", "c"))
         map.values should be (Array(111, 222, 333))
     }
+
+	it should "update value of element accessing it by its key" in {
+		map.insert("a", 111)
+		map.insert("b", 222)
+		map.insert("c", 333)
+
+		map.updateValue("b", 666)
+		map.find("b").value should be (666)
+	}
 
 }
