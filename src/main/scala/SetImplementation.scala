@@ -8,18 +8,14 @@ class SetImplementation[A: Manifest](size: Int) extends Set[A] {
     def elements(): Array[Option[A]] = setArray
 
     def insert(value: Option[A]): Unit = {
-        var hasDuplicate: Boolean = false
         if (setArray(size-1) != null) {
-            throw InvalidArgument()
+            throw InvalidMethod()
         }
         for (i <- 0 until size) {
             if (value == setArray(i)) {
-                hasDuplicate = true
+                println("Not inserted. Element has duplicate")
+                return
             }
-        }
-        if (hasDuplicate) {
-            println("Not inserted. Element has duplicate")
-            return
         }
         var i: Int = 0
         while (setArray(i) != null && i != size-1) {

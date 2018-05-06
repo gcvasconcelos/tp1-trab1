@@ -1,0 +1,6 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mTestMap:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA Map[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should have immutable size[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should insert elements with unique key *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Array(MapNode@64fdbb51, MapNode@af97ff6, MapNode@516d204e) was not equal to 1 (TestMap.scala:25)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should [0m[0m

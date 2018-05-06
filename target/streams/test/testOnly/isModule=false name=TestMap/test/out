@@ -1,0 +1,7 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mTestMap:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA Map[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should have immutable size[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should find element by its key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should insert elements with unique key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should delete elements by their key[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return array of values and of keys of the map[0m[0m

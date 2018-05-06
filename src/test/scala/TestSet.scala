@@ -25,7 +25,7 @@ class TestSet extends FlatSpec with Matchers with GivenWhenThen with BeforeAndAf
 	}
 
     it should "throw an error when set is full" in {
-		a [InvalidArgument] should be thrownBy {
+		a [InvalidMethod] should be thrownBy {
 			set.insert(Some(111))
 		    set.insert(Some(222))
 		    set.insert(Some(333))
