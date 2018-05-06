@@ -4,7 +4,7 @@
 
 O trabalho consiste no desenvolvimento de uma biblioteca de estruturas de dados. Foi desenvolvido utilizando a linguagem Scala, com metodologia orientada a testes, utilizando a biblioteca Scala Test.
 
-## Lista de Implementações
+## Lista de Implementações de Estrutura de Dados
 
 - [x] Lista encadeada
 - [x] Pilha
@@ -12,13 +12,19 @@ O trabalho consiste no desenvolvimento de uma biblioteca de estruturas de dados.
 - [x] Deque
 - [ ] Lista encadeada circular
 - [ ] Lista duplamente encadeada
-- [ ] Heap
 - [ ] Grafo
 - [x] Árvore Binária
 - [x] Tabela de Hash
 - [x] Sets
 - [x] Maps
-- [ ] Trie
+
+## Lista de Implementações de Algoritmos de Sorting
+
+- [ ] Bubble Sort
+- [ ] Insertion Sort
+- [ ] Selection Sort
+- [ ] Quick Sort
+- [ ] Merge Sort
 
 
 ## Material de Estudo
