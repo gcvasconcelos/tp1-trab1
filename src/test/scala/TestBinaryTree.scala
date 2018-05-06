@@ -70,33 +70,33 @@ class TestBinaryTree extends FlatSpec with Matchers with GivenWhenThen with Befo
 		tree.find(4) should be (false) 
 	}
 
-	// it should "delete node with no children correctly" in {
-	// 	tree.insert(2)
-	// 	tree.insert(1)
-	// 	tree.insert(3)
-	// 	tree.remove(1)
+	it should "delete node with no children correctly" in {
+		tree.insert(2)
+		tree.insert(1)
+		tree.insert(3)
+		tree.remove(1)
 
-	// 	tree.find(1) should be (false)
-	// }
+		tree.find(1) should be (false)
+	}
 
-	// it should "delete node with one children and link its children with its parent" in {
-	// 	tree.insert(2)
-	// 	tree.insert(1)
-	// 	tree.insert(5)
-	// 	tree.insert(3)
-	// 	tree.remove(5)
+	it should "delete node with one children and link its children with its parent" in {
+		tree.insert(2)
+		tree.insert(1)
+		tree.insert(5)
+		tree.insert(3)
+		tree.remove(5)
 
-	// 	tree.root.right should be (3)
-	// }
+		tree.root.right.value should be (3)
+	}
 
-	// it should "delete node with two children and link its children with its parent" in {
-	// 	tree.insert(2)
-	// 	tree.insert(1)
-	// 	tree.insert(5)
-	// 	tree.insert(3)
-	// 	tree.insert(6)
-	// 	tree.remove(5)
+	it should "delete node with two children and link its children with its parent" in {
+		tree.insert(2)
+		tree.insert(1)
+		tree.insert(5)
+		tree.insert(3)
+		tree.insert(6)
+		tree.remove(5)
 
-	// 	tree.root.right should be (3)
-	// }
+		tree.root.right.value should be (6)
+	}
 }

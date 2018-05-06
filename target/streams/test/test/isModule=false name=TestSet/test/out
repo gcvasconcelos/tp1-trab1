@@ -1,0 +1,11 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mTestSet:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA Set[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should have immutable size[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should insert elements without duplicates[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw an error when set is full[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should remove itens by their index[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw an error when index of removed item is higher than its size[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the set with the union of two different sets[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the set with the intersection of two different sets[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return the set with the difference of two different sets *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Array(Some(222), Some(333)) was not equal to Array(Some(222), Some(333), null) (TestSet.scala:83)[0m[0m
