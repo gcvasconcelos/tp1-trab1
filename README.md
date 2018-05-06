@@ -2,7 +2,7 @@
 
 ## Introdução
 
-O trabalho consiste no desenvolvimento de uma biblioteca de estruturas de dados. Foi desenvolvido utilizando a linguagem Scala, com metodologia orientada a testes, utilizando a biblioteca Scala Test.
+O trabalho consiste no desenvolvimento de uma biblioteca de estruturas de dados genérica. Foi desenvolvido utilizando a linguagem Scala, com metodologia orientada a testes, utilizando a biblioteca Scala Test.
 
 ## Lista de Implementações de Estrutura de Dados
 
