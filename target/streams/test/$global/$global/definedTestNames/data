@@ -1,1 +1,1 @@
-["TestQueue","TestDeque","TestHash","TestBinaryTree","TestDoubleLinkedList","TestLinkedList","TestStack"]
+["TestQueue","TestDeque","TestHash","TestBinaryTree","TestDoubleLinkedList","TestLinkedList","TestStack","TestCircularLinkedList"]

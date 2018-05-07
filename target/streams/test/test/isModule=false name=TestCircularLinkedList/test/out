@@ -1,0 +1,83 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mTestCircularLinkedList:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA CircularLinkedList[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should have size == 0 before any insertion[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should have size increased by 1 after any insertion *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  InvalidArgument:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.search(DoubleLinkedListImplementation.scala:65)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at CircularLinkedListImplementation.add(CircularLinkedListImplementation.scala:24)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at TestCircularLinkedList.$anonfun$new$3(TestCircularLinkedList.scala:25)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FlatSpecLike$$anon$1.apply(FlatSpecLike.scala:1682)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should keep track of the inserted values by their postion number *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  InvalidArgument:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.search(DoubleLinkedListImplementation.scala:65)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at CircularLinkedListImplementation.add(CircularLinkedListImplementation.scala:24)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at TestCircularLinkedList.$anonfun$new$4(TestCircularLinkedList.scala:33)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FlatSpecLike$$anon$1.apply(FlatSpecLike.scala:1682)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should insert values in between previous inserted values *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  InvalidArgument:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.search(DoubleLinkedListImplementation.scala:65)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at CircularLinkedListImplementation.add(CircularLinkedListImplementation.scala:24)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at TestCircularLinkedList.$anonfun$new$5(TestCircularLinkedList.scala:41)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FlatSpecLike$$anon$1.apply(FlatSpecLike.scala:1682)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw InvalidArgument if an position lower than 0 and higher than the size is inserted[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should change head when a value is inserted in first position[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should have size decreased by 1 after any deletion *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  InvalidArgument:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.search(DoubleLinkedListImplementation.scala:65)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at CircularLinkedListImplementation.add(CircularLinkedListImplementation.scala:24)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at TestCircularLinkedList.$anonfun$new$9(TestCircularLinkedList.scala:63)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FlatSpecLike$$anon$1.apply(FlatSpecLike.scala:1682)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should change head when the value in the first position is deleted *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  InvalidArgument:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.search(DoubleLinkedListImplementation.scala:65)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at CircularLinkedListImplementation.add(CircularLinkedListImplementation.scala:24)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at TestCircularLinkedList.$anonfun$new$10(TestCircularLinkedList.scala:72)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FlatSpecLike$$anon$1.apply(FlatSpecLike.scala:1682)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should keep track of the list after two sucessive deletions *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  InvalidArgument:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.search(DoubleLinkedListImplementation.scala:65)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at CircularLinkedListImplementation.add(CircularLinkedListImplementation.scala:24)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at TestCircularLinkedList.$anonfun$new$11(TestCircularLinkedList.scala:80)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.FlatSpecLike$$anon$1.apply(FlatSpecLike.scala:1682)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
