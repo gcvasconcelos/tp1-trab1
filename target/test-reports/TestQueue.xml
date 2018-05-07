@@ -6,13 +6,13 @@
     </properties>
                      <testcase classname="TestQueue" name="A Queue should have size == 0 before any insertion" time="0.018">
                                                  
-                                               </testcase><testcase classname="TestQueue" name="A Queue should have size increased by 1 after any insertion" time="0.001">
+                                               </testcase><testcase classname="TestQueue" name="A Queue should have size increased by 1 after any insertion" time="0.007">
                                                  
-                                               </testcase><testcase classname="TestQueue" name="A Queue should have size decreased by 1 after any deletion" time="0.001">
+                                               </testcase><testcase classname="TestQueue" name="A Queue should have size decreased by 1 after any deletion" time="0.0">
                                                  
-                                               </testcase><testcase classname="TestQueue" name="A Queue should throw InvalidMethod if dequeue() is called in an empty queue" time="0.003">
+                                               </testcase><testcase classname="TestQueue" name="A Queue should throw InvalidMethod if dequeue() is called in an empty queue" time="0.002">
                                                  
-                                               </testcase><testcase classname="TestQueue" name="A Queue should return first element when dequeue() is called" time="0.005">
+                                               </testcase><testcase classname="TestQueue" name="A Queue should return first element when dequeue() is called" time="0.001">
                                                  
                                                </testcase>
                      <system-out><![CDATA[]]></system-out>

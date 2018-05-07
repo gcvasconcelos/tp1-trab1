@@ -10,14 +10,14 @@ class TestHash extends FlatSpec with Matchers with GivenWhenThen with BeforeAndA
 	var table: HashImplementation[Int] = _
 	
 	before {
-		table = new HashImplementation[Int]
+		table = new HashImplementation[Int](64)
 	}
 
 	it should "have immutable size" in {
 		table.size should be (64)
 	}
 
-    it should "insert a node with key-value pair and keep size unchaged" in {
+  it should "insert a node with key-value pair and keep size unchaged" in {
 		table.insert(1, 111)
 
 		table.size should be (64)
@@ -28,22 +28,22 @@ class TestHash extends FlatSpec with Matchers with GivenWhenThen with BeforeAndA
 		table.insert(2, 222)
 		table.insert(3, 333)
 
-        table.find(2) should be (222)
+    table.find(2) should be (222)
 	}
 
 	it should "solve hash key conflicts with linear probing" in {
 		table.insert(1, 111)
 		table.insert(101, 222)
 
-        table.find(1) should be (111)
-        table.find(101) should be (222)
+    table.find(1) should be (111)
+    table.find(101) should be (222)
 	}
 
-    it should "throw InvalidArgument when key was not found" in {
-		a [InvalidArgument] should be thrownBy {
-			table.insert(1, 111)
-		    table.insert(2, 222)
-		    table.find(3)
-    	} 
+  it should "throw InvalidArgument when key was not found" in {
+    a [InvalidArgument] should be thrownBy {
+      table.insert(1, 111)
+      table.insert(2, 222)
+      table.find(3)
+    } 
 	}
 }
