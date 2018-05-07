@@ -2,12 +2,12 @@ class DllNode[A](val value: A, var next: DllNode[A], var prev: DllNode[A])
 
 class DoubleLinkedListImplementation[A] extends LinkedListImplementation[A] {
 	private var _elements: LinkedList[A] = new LinkedListImplementation[A]
-	
-	private var _size: Int = 0
+    
+    private var _size: Int = 0
     private var _head: DllNode[A] = _
 
-    def size(): Int = _size
-    def head(): A = _head.value
+    override def size(): Int = _size
+    override def head(): A = _head.value
 
     def add(value: A, pos: Int): Unit = {
         var node = new DllNode[A](value, null, null)
