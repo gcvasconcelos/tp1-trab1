@@ -1,13 +1,12 @@
 class CircularLinkedListImplementation[A] extends DoubleLinkedListImplementation[A] {
-    private var _elements: LinkedList[A] = new LinkedListImplementation[A]
-	
+    
 	private var _size: Int = 0
     private var _head: DllNode[A] = _
 
     override def size(): Int = _size
     override def head(): A = _head.value
 
-    def insert(value: A, pos: Int): Unit = {
+    override def add(value: A, pos: Int): Unit = {
         var node = new DllNode[A](value, null, null)
         if (pos >= 0 && pos <= _size){
             if (_size == 0) { 
@@ -35,7 +34,7 @@ class CircularLinkedListImplementation[A] extends DoubleLinkedListImplementation
         }
     }
     
-    def remove(pos: Int): Unit = {
+    override def delete(pos: Int): Unit = {
         if (pos >= 0 && pos <= _size){
             if (pos == 0) {
             	_head.next.prev = _head.prev
@@ -48,18 +47,6 @@ class CircularLinkedListImplementation[A] extends DoubleLinkedListImplementation
                 nextNode.prev = prevNode
             }
             _size = _size - 1
-        } else {
-            throw InvalidArgument()
-        }
-    }
-
-    def search(pos: Int): DllNode[A] = {
-        var nodeTemp = _head
-        if (pos >= 0 && pos <= _size) {
-            for (i <- 0 until pos ) {
-                nodeTemp = nodeTemp.next
-            }
-            nodeTemp
         } else {
             throw InvalidArgument()
         }

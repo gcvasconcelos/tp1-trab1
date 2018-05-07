@@ -1,5 +1,22 @@
-[0m[[0m[31merror[0m] [0m[0m/home/carlossilvaa/Documents/tp1/tp1-trab1/src/main/scala/CircularLinkedListImplementation.scala:57:18: overriding method find in class LinkedListImplementation of type (pos: Int)Node[A];[0m
-[0m[[0m[31merror[0m] [0m[0m method find has incompatible type[0m
-[0m[[0m[31merror[0m] [0m[0m    override def find(pos: Int): CllNode[A] = {[0m
-[0m[[0m[31merror[0m] [0m[0m                 ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/carlossilvaa/Documents/tp1/tp1-trab1/src/main/scala/CircularLinkedListImplementation.scala:1:51: not found: type DoubleLinkedListImplementation[0m
+[0m[[0m[31merror[0m] [0m[0mclass CircularLinkedListImplementation[A] extends DoubleLinkedListImplementation[A] {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/carlossilvaa/Documents/tp1/tp1-trab1/src/main/scala/CircularLinkedListImplementation.scala:5:24: not found: type DllNode[0m
+[0m[[0m[31merror[0m] [0m[0m    private var _head: DllNode[A] = _[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/carlossilvaa/Documents/tp1/tp1-trab1/src/main/scala/CircularLinkedListImplementation.scala:11:24: not found: type DllNode[0m
+[0m[[0m[31merror[0m] [0m[0m        var node = new DllNode[A](value, null, null)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/carlossilvaa/Documents/tp1/tp1-trab1/src/main/scala/CircularLinkedListImplementation.scala:24:36: not found: value search[0m
+[0m[[0m[31merror[0m] [0m[0m                    var prevNode = search(pos-1)[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/carlossilvaa/Documents/tp1/tp1-trab1/src/main/scala/CircularLinkedListImplementation.scala:25:33: not found: value search[0m
+[0m[[0m[31merror[0m] [0m[0m                	var nextNode = search(pos+1)[0m
+[0m[[0m[31merror[0m] [0m[0m                	               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/carlossilvaa/Documents/tp1/tp1-trab1/src/main/scala/CircularLinkedListImplementation.scala:45:32: not found: value search[0m
+[0m[[0m[31merror[0m] [0m[0m                var prevNode = search(pos-1)[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/carlossilvaa/Documents/tp1/tp1-trab1/src/main/scala/CircularLinkedListImplementation.scala:46:32: not found: value search[0m
+[0m[[0m[31merror[0m] [0m[0m                var nextNode = search(pos+1)[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m7 errors found[0m
