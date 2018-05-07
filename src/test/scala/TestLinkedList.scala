@@ -48,7 +48,7 @@ class TestLinkedList extends FlatSpec with Matchers with GivenWhenThen with Befo
 		a [InvalidArgument] should be thrownBy {
 			list.insert(111 , -1)
 			list.remove(10)
-    	} 
+    } 
 	}
 
 	it should "change head when a value is inserted in first position" in {
