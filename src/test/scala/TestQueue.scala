@@ -13,56 +13,53 @@ class TestQueue extends FlatSpec with Matchers with GivenWhenThen with BeforeAnd
 		queue = new QueueImplementation[Int]
 	}
 
-    it should "have size == 0 before any insertion" in {
+  it should "have size == 0 before any insertion" in {
 		queue.size should be (0)
 	}
 
 	it should "have size increased by 1 after any insertion" in {
-        queue.enqueue(3)
+    queue.enqueue(3)
 
 		queue.size should be (1)
 
-        queue.enqueue(5)
-        queue.enqueue(7)
+    queue.enqueue(5)
+    queue.enqueue(7)
 
 		queue.size should be (3)
-    }
+  }
 
 	it should "have size decreased by 1 after any deletion" in {
-        queue.enqueue(3)
-        queue.enqueue(5)
-        queue.enqueue(7)
-        queue.enqueue(11)
-        queue.dequeue
+    queue.enqueue(3)
+    queue.enqueue(5)
+    queue.enqueue(7)
+    queue.enqueue(11)
+    queue.dequeue
 
 		queue.size should be (3)
 
-        queue.dequeue
-        queue.dequeue
+    queue.dequeue
+    queue.dequeue
 
 		queue.size should be (1)
-    }
+  }
 
-    it should "throw InvalidMethod if dequeue() is called in an empty queue " in {
+  it should "throw InvalidMethod if dequeue() is called in an empty queue " in {
 		a [InvalidMethod] should be thrownBy {
-            queue.dequeue	
-    	} 
+      queue.dequeue	
+    } 
 	}
 
-    it should "return first element when dequeue() is called" in {
-        queue.enqueue(3)
-        queue.enqueue(5)
-        queue.enqueue(7)
+  it should "return first element when dequeue() is called" in {
+    queue.enqueue(3)
+    queue.enqueue(5)
+    queue.enqueue(7)
 
-        queue.dequeue should be (3)
+    queue.dequeue should be (3)
+    queue.dequeue should be (5)
 
-        queue.dequeue should be (5)
-
-        queue.enqueue(11)
-        
-        queue.dequeue should be (7) 
-
-        queue.dequeue should be (11)
-
-    }
+    queue.enqueue(11)
+    
+    queue.dequeue should be (7) 
+    queue.dequeue should be (11)
+  }
 }
