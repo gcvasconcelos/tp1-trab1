@@ -1,11 +1,11 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestStack, org.scalatest.tools.Framework$$anon$1@4f1f8955, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestDeque, org.scalatest.tools.Framework$$anon$1@4f1f8955, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestLinkedList, org.scalatest.tools.Framework$$anon$1@4f1f8955, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestQueue, org.scalatest.tools.Framework$$anon$1@4f1f8955, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestHash, org.scalatest.tools.Framework$$anon$1@4f1f8955, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestBinaryTree, org.scalatest.tools.Framework$$anon$1@4f1f8955, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestDoubleLinkedList, org.scalatest.tools.Framework$$anon$1@4f1f8955, false, [SuiteSelector])[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 390 milliseconds.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestBinaryTree, org.scalatest.tools.Framework$$anon$1@28b33aeb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestLinkedList, org.scalatest.tools.Framework$$anon$1@28b33aeb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestStack, org.scalatest.tools.Framework$$anon$1@28b33aeb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestDeque, org.scalatest.tools.Framework$$anon$1@28b33aeb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestQueue, org.scalatest.tools.Framework$$anon$1@28b33aeb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestHash, org.scalatest.tools.Framework$$anon$1@28b33aeb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestDoubleLinkedList, org.scalatest.tools.Framework$$anon$1@28b33aeb, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 498 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 46[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 7, aborted 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 40, failed 6, canceled 0, ignored 0, pending 0[0m[0m

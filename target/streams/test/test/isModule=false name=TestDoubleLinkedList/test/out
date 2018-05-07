@@ -3,8 +3,8 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- should have size == 0 before any insertion[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m- should have size increased by 1 after any insertion *** FAILED ***[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  InvalidArgument:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.search(DoubleLinkedListImplementation.scala:66)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.add(DoubleLinkedListImplementation.scala:25)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.search(DoubleLinkedListImplementation.scala:65)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.add(DoubleLinkedListImplementation.scala:24)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  at TestDoubleLinkedList.$anonfun$new$3(TestDoubleLinkedList.scala:25)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
@@ -16,8 +16,8 @@
 [0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m- should keep track of the inserted values by their postion number *** FAILED ***[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  InvalidArgument:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.search(DoubleLinkedListImplementation.scala:66)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.add(DoubleLinkedListImplementation.scala:25)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.search(DoubleLinkedListImplementation.scala:65)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.add(DoubleLinkedListImplementation.scala:24)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  at TestDoubleLinkedList.$anonfun$new$4(TestDoubleLinkedList.scala:33)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
@@ -29,8 +29,8 @@
 [0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m- should insert values in between previous inserted values *** FAILED ***[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  InvalidArgument:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.search(DoubleLinkedListImplementation.scala:66)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.add(DoubleLinkedListImplementation.scala:25)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.search(DoubleLinkedListImplementation.scala:65)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.add(DoubleLinkedListImplementation.scala:24)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  at TestDoubleLinkedList.$anonfun$new$5(TestDoubleLinkedList.scala:41)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
@@ -44,8 +44,8 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- should change head when a value is inserted in first position[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m- should have size decreased by 1 after any deletion *** FAILED ***[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  InvalidArgument:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.search(DoubleLinkedListImplementation.scala:66)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.add(DoubleLinkedListImplementation.scala:25)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.search(DoubleLinkedListImplementation.scala:65)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.add(DoubleLinkedListImplementation.scala:24)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  at TestDoubleLinkedList.$anonfun$new$9(TestDoubleLinkedList.scala:63)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
@@ -57,8 +57,8 @@
 [0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m- should change head when the value in the first position is removed *** FAILED ***[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  InvalidArgument:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.search(DoubleLinkedListImplementation.scala:66)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.add(DoubleLinkedListImplementation.scala:25)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.search(DoubleLinkedListImplementation.scala:65)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.add(DoubleLinkedListImplementation.scala:24)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  at TestDoubleLinkedList.$anonfun$new$10(TestDoubleLinkedList.scala:72)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
@@ -70,8 +70,8 @@
 [0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m- should keep track of the list after two sucessive deletions *** FAILED ***[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  InvalidArgument:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.search(DoubleLinkedListImplementation.scala:66)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.add(DoubleLinkedListImplementation.scala:25)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.search(DoubleLinkedListImplementation.scala:65)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at DoubleLinkedListImplementation.add(DoubleLinkedListImplementation.scala:24)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  at TestDoubleLinkedList.$anonfun$new$11(TestDoubleLinkedList.scala:80)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m

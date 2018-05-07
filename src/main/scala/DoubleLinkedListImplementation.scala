@@ -1,8 +1,7 @@
 class DllNode[A](val value: A, var next: DllNode[A], var prev: DllNode[A])
 
 class DoubleLinkedListImplementation[A] extends LinkedListImplementation[A] {
-	private var _elements: LinkedList[A] = new LinkedListImplementation[A]
-    
+	
     private var _size: Int = 0
     private var _head: DllNode[A] = _
 
