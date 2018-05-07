@@ -1,13 +1,16 @@
-class Node[A](val value: A, var next: Node[A], var prev: Node[A])
+class DllNode[A](val value: A, var next: DllNode[A], var prev: DllNode[A])
 
-class DoubleLinkedListImplementation[A] extends DoubleLinkedList[A] {
+class DoubleLinkedListImplementation[A] extends LinkedListImplementation[A] {
 	private var _elements: LinkedList[A] = new LinkedListImplementation[A]
 	
-	def size(): Int = _elements.size
-    def print(): Unit = _elements.print
+	private var _size: Int = 0
+    private var _head: DllNode[A] = _
 
-    def insert(value: A, pos: Int): Unit = {
-        var node = new Node[A](value, null, null)
+    def size(): Int = _size
+    def head(): A = _head.value
+
+    def add(value: A, pos: Int): Unit = {
+        var node = new DllNode[A](value, null, null)
         if (pos >= 0 && pos <= _size){
             if (_size == 0) { 
                 _head = node 
@@ -18,8 +21,8 @@ class DoubleLinkedListImplementation[A] extends DoubleLinkedList[A] {
                     _head = node
                 }
                 else {
-                    var prevNode = find(pos-1)
-                	var nextNode = find(pos+1)
+                    var prevNode = search(pos-1)
+                	var nextNode = search(pos+1)
                     if (prevNode.next != null) {
                     	node.prev = prevNode
                     	prevNode.next = node
@@ -36,17 +39,29 @@ class DoubleLinkedListImplementation[A] extends DoubleLinkedList[A] {
         }
     }
     
-    def remove(pos: Int): Unit = {
+    def delete(pos: Int): Unit = {
         if (pos >= 0 && pos <= _size){
             if (pos == 0) {
             	_head.next.prev = null
                 _head = _head.next
             } else {
-                var prevNode = find(pos-1)
-                var nextNode = find(pos+1)
+                var prevNode = search(pos-1)
+                var nextNode = search(pos+1)
                 prevNode.next = nextNode
             }
             _size = _size - 1
+        } else {
+            throw InvalidArgument()
+        }
+    }
+
+    def search(pos: Int): DllNode[A] = {
+        var nodeTemp = _head
+        if (pos >= 0 && pos <= _size) {
+            for (i <- 0 until pos ) {
+                nodeTemp = nodeTemp.next
+            }
+            nodeTemp
         } else {
             throw InvalidArgument()
         }
