@@ -1,5 +1,10 @@
 # Técnicas de Programação 1 - Trabalho 1
 
+## Alunos
+
+- Gabriel Vasconcelos - 16/0120781
+- Carlos Silva - 16/0115663
+
 ## Introdução
 
 O trabalho consiste no desenvolvimento de uma biblioteca de estruturas de dados genérica. Foi desenvolvido utilizando a linguagem Scala, com metodologia orientada a testes, utilizando a biblioteca Scala Test.
@@ -10,13 +15,13 @@ O trabalho consiste no desenvolvimento de uma biblioteca de estruturas de dados 
 - [x] Pilha
 - [x] Fila
 - [x] Deque
-- [ ] Lista encadeada circular
-- [ ] Lista duplamente encadeada
-- [ ] Grafo
 - [x] Árvore Binária
 - [x] Tabela de Hash
 - [x] Sets
 - [x] Maps
+- [ ] Lista encadeada circular
+- [ ] Lista duplamente encadeada
+- [ ] Grafo
 
 ## Lista de Implementações de Algoritmos de Sorting
 
