@@ -1,13 +1,15 @@
-class Node[A](val value: A, var next: Node[A], var prev: Node[A])
-
-class CircularLinkedListImplementation[A] extends CircularLinkedList[A] {
-	private var _elements: LinkedList[A] = new LinkedListImplementation[A]
+class CircularLinkedListImplementation[A] extends LinkedListImplementation[A] {
+	class CllNode[A](val value: A, var next: CllNode[A], var prev: CllNode[A])
+    private var _elements: LinkedList[A] = new LinkedListImplementation[A]
 	
-	def size(): Int = _elements.size
-    def print(): Unit = _elements.print
+	private var _size: Int = 0
+    private var _head: CllNode[A] = _
 
-    def insert(value: A, pos: Int): Unit = {
-        var node = new Node[A](value, null, null)
+    override def size(): Int = _size
+    override def head(): A = _head.value
+
+    override def insert(value: A, pos: Int): Unit = {
+        var node = new CllNode[A](value, null, null)
         if (pos >= 0 && pos <= _size){
             if (_size == 0) { 
                 _head = node 
@@ -34,7 +36,7 @@ class CircularLinkedListImplementation[A] extends CircularLinkedList[A] {
         }
     }
     
-    def remove(pos: Int): Unit = {
+    override def remove(pos: Int): Unit = {
         if (pos >= 0 && pos <= _size){
             if (pos == 0) {
             	_head.next.prev = _head.prev
@@ -52,22 +54,15 @@ class CircularLinkedListImplementation[A] extends CircularLinkedList[A] {
         }
     }
 
-    def find(pos: Int): Node[A] = {
+    override def find(pos: Int): CllNode[A] = {
         var nodeTemp = _head
-        if (pos >= 0) {
+        if (pos >= 0 && pos <= _size) {
             for (i <- 0 until pos ) {
                 nodeTemp = nodeTemp.next
             }
             nodeTemp
         } else {
-            if (pos <= 0) {
-                for (i <- 0 until pos) {
-                    nodeTemp = nodeTemp.prev
-                }
-            }
-            else {   
-                throw InvalidArgument()
-            }
+            throw InvalidArgument()
         }
     }
 }
